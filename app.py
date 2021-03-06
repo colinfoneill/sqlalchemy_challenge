@@ -55,8 +55,7 @@ def precipitation():
     all_dates = []
     for date, precip in results:
         dict = {}
-        dict["date"] = date
-        dict["precip"] = precip
+        dict[date] = precip
         all_dates.append(dict)
     
     
